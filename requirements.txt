@@ -33,7 +33,7 @@ joblib==1.2.0
 jsonschema==4.17.3
 kiwisolver==1.4.4
 MarkupSafe==2.1.1
-matplotlib==3.7.0
+matplotlib==3.5.3
 matplotlib-inline==0.1.6
 munch==2.5.0
 numpy==1.24.1
