@@ -26,7 +26,7 @@ GitPython==3.1.30
 haversine==2.7.0
 idna==3.4
 importlib-metadata==6.0.0
-inflection==7.34.0
+inflection==0.5.0
 ipython==8.10.0
 jedi==0.18.2
 Jinja2==3.1.2
