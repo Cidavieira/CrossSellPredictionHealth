@@ -81,6 +81,6 @@ urllib3==1.26.13
 validators==0.20.0
 watchdog==2.2.1
 wcwidth==0.2.6
-xgboost==1.7.4
+xgboost==1.6.2
 yellowbrick==1.5
 zipp==3.11.0
