@@ -6,7 +6,7 @@ from healthinsurance.HealthInsurance import HealthInsurance
 
 # loading model
 #model = pickle.load( open( '\\Users\\Cida\\Classificacao_PA4\\src\\models\\model_linear_regression.pkl', 'rb' ) )
-model = pickle.load( open( '\\models\\model_linear_regression.pkl', 'rb' )
+model = pickle.load( open( 'models/model_linear_regression.pkl', 'rb' )
 # initialize API
 app = Flask( __name__ )
 
@@ -47,4 +47,6 @@ if __name__ == '__main__':
     #port=os.environ.get('PORT',5000)
     port = os.environ.get('PORT', 5000)
     app.run( '0.0.0.0', port=port )
+                    
+
 
