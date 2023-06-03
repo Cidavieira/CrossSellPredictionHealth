@@ -8,12 +8,12 @@ class HealthInsurance( object ):
         #self.home_path = '/Users/meigarom.lopes/repos/pa004_health_insurance_cross_sell/health_insurance_cross-sell/'
         #self.home_path  = '\\Users\\Cida\\Classificacao_PA4\\src'
         self.home_path = ''
-        self.annual_premium_scaler =            pickle.load( open( self.home_path + '\\features\\annual_premium_scaler.pkl', 'rb' ) )
-        self.age_scaler =                       pickle.load( open( self.home_path + '\\features\\age_scaler.pkl', 'rb' ) )
-        self.vintage_scaler =                   pickle.load( open( self.home_path + '\\features\\vintage_scaler.pkl', 'rb' ) )
-        self.target_encode_gender_scaler =      pickle.load( open( self.home_path + '\\features\\target_encode_gender_scaler.pkl', 'rb' ) )
-        self.target_encode_region_code_scaler = pickle.load( open( self.home_path + '\\features\\target_encode_region_code_scaler.pkl', 'rb' ) )
-        self.fe_policy_sales_channel_scaler =   pickle.load( open( self.home_path + '\\features\\fe_policy_sales_channel_scaler.pkl', 'rb' ) )
+        self.annual_premium_scaler =            pickle.load( open( self.home_path + 'features/annual_premium_scaler.pkl', 'rb' ) )
+        self.age_scaler =                       pickle.load( open( self.home_path + 'features/age_scaler.pkl', 'rb' ) )
+        self.vintage_scaler =                   pickle.load( open( self.home_path + 'features/vintage_scaler.pkl', 'rb' ) )
+        self.target_encode_gender_scaler =      pickle.load( open( self.home_path + 'features/target_encode_gender_scaler.pkl', 'rb' ) )
+        self.target_encode_region_code_scaler = pickle.load( open( self.home_path + 'features/target_encode_region_code_scaler.pkl', 'rb' ) )
+        self.fe_policy_sales_channel_scaler =   pickle.load( open( self.home_path + 'features/fe_policy_sales_channel_scaler.pkl', 'rb' ) )
         
     def data_cleaning( self, df1 ):
         # 1.1. Rename Columns
