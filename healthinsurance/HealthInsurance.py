@@ -5,7 +5,7 @@ import pandas as pd
 class HealthInsurance( object ):
     
     def __init__( self ):
-        #self.home_path = '/Users/meigarom.lopes/repos/pa004_health_insurance_cross_sell/health_insurance_cross-sell/'
+      
         #self.home_path  = '\\Users\\Cida\\Classificacao_PA4\\src'
         #self.home_path = ''
         self.annual_premium_scaler =            pickle.load( open('features/annual_premium_scaler.pkl', 'rb' ) )
