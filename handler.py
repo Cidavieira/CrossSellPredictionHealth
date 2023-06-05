@@ -45,7 +45,7 @@ def healthinsurance_predict():
 if __name__ == '__main__':
     #app.run( '0.0.0.0', debug=True )
     #port=os.environ.get('PORT',5000)
-    port = os.environ.get('PORT', 10000)
+    port = os.environ.get('PORT', 5000)
     app.run( '0.0.0.0', port=port )
                     
 
