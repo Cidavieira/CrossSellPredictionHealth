@@ -1,6 +1,7 @@
 import os
 import pickle
 import pandas as pd
+import xgboost as xgb
 from flask import Flask, request, Response
 from healthinsurance.HealthInsurance import HealthInsurance
 
